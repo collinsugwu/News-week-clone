@@ -1,0 +1,158 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family:
+    "Lato",
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Geneva,
+    Verdana,
+    sans-serif;
+}
+
+/* *,
+*::before,
+*::after {
+  box-sizing: inherit;
+} */
+
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.clearfix::after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.svg {
+  width: 300px;
+  fill: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.first-nav {
+  background: #f72210;
+}
+
+nav ul {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+nav:first-of-type ul li {
+  padding: 10px;
+  color: #fff;
+}
+
+.subscribe a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.subscribe li:nth-of-type(2) a {
+  background: #fff; 
+  display: inherit;
+  padding: 0 5px;
+  color: #f72210;
+}
+
+.menu {
+  display: inherit;
+  display: none;
+}
+
+.menu img {
+  display: inherit;
+  box-sizing: inherit;
+  width: 100%;
+  margin-top: -40%;
+}
+
+nav:last-of-type {
+border-bottom: 1px solid #aba6a6;
+margin: 0px;
+}
+
+nav:last-of-type ul li a {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+  border-right: 1px solid #9c9c9c;
+  padding: 0 10px;
+}
+
+nav:last-of-type ul li a:active,
+nav:last-of-type ul li a:hover {
+  color: #f72210;
+}
+
+nav:last-of-type ul input{
+    border: 0px;
+}
+
+@media screen and (max-width: 991px){
+  ul {
+    align-items: center;
+  }
+
+  header{
+    width: 100%;
+  }
+
+  .svg {
+    width: 20%;
+  }
+
+  .date {
+    display: none;
+  }
+
+  nav:last-of-type {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    width: 40px;
+    height: 30px;
+    padding: 0%;
+  }
+}
+
+.main-content {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.col {
+  border: 1px solid red;
+}
