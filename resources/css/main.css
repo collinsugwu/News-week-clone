@@ -77,6 +77,27 @@ header {
 
 .first-nav {
   background: #f72210;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+nav div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+nav div:last-of-type {
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+nav div p {
+  color: #fff;
+  margin-bottom: 0%;
 }
 
 nav ul {
@@ -87,6 +108,14 @@ nav ul {
 nav:first-of-type ul li {
   padding: 10px;
   color: #fff;
+}
+
+.weekly-sub a {
+  padding: 10px;
+  background: #f72210;
+  color: #dad7d7;
+  font-weight: bold;
+  width: 110px;
 }
 
 .subscribe a {
@@ -105,6 +134,10 @@ nav:first-of-type ul li {
   color: #f72210;
   padding: 5px;
   font-weight: bold;
+}
+
+.magazine img {
+  width: 100%;
 }
 
 .weekly-sub a {
@@ -173,8 +206,10 @@ nav:last-of-type ul input{
     width: 100%;
   }
 
+  inner
+
   .svg {
-    width: 20%;
+    width: 50%;
   }
 
   .date {
@@ -321,7 +356,7 @@ nav:last-of-type ul input{
 
 .latest-news img {
   height: 100px;
-  width: 150px;
+  width: 100%;
   padding: 5px;
 }
 
@@ -399,7 +434,9 @@ nav:last-of-type ul input{
   text-decoration: none;
   background: #aba6a6;
 }
-
+.magazine-list img{
+  height: 300px;
+}
 /* editor hero */
 
 .editor h2, .editor p {
@@ -434,6 +471,10 @@ nav:last-of-type ul input{
 
 .slideshows h1 {
   text-align: center;
+}
+
+.slideshows img {
+  width: 100%;
 }
 
 .slideshows p {
@@ -478,14 +519,6 @@ nav:last-of-type ul input{
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.weekly-sub a {
-  padding: 10px;
-  background: #f72210;
-  color: #dad7d7;
-  font-weight: bold;
-  width: 110px;
 }
 
 .sub-content h1{
