@@ -252,6 +252,11 @@ nav:last-of-type ul input{
   padding: 5px;
 }
 
+.more-stories img {
+  width: 100%;
+  height: 35%;
+}
+
 .more-stories p {
   padding: 10px;
 }
