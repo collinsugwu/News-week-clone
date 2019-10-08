@@ -16,18 +16,36 @@
     sans-serif;
 }
 
-/* *,
-*::before,
-*::after {
-  box-sizing: inherit;
-} */
-
 body {
   width: 100%;
 }
 
+h1{
+  font-size: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #aba6a6;
+}
+
+h2{
+  font-size: 130%;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #000;
+}
+
+p{
+  line-height: 120%;
+}
+
 a {
   text-decoration: none;
+  color: #000;
+}
+
+a:hover,
+a:active {
+  text-decoration-color: #f72210;
   color: #000;
 }
 
@@ -148,11 +166,154 @@ nav:last-of-type ul input{
   }
 }
 
-.main-content {
-  width: 97%;
-  margin: 0 auto;
+.stories, .magazine, .editor {
+  padding: 20px;
 }
 
-.col {
-  border: 1px solid red;
+.featured-hero {
+  background-image: url("img/alexandria-ocasio-cortez.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 2%;
+}
+
+ .span {
+  padding: 10px;
+  width: 50px;
+  background: rgb(243, 239, 239);
+  color: #f72210;
+  font-weight: bold;
+}
+
+.independent-h2 {
+  font-size: 100%;
+  font-weight: bolder;
+}
+
+.top-hero {
+  background-image: url("img/president-donald-trump-press-conference-united-nations.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 2%;
+}
+
+.joe-biden {
+  font-size: 100%;
+}
+
+.culture {
+  background: rgba(230, 227, 227, 0.5);
+  margin-bottom: 20px;
+}
+
+.culture .col-lg-6 {
+  margin-bottom: 10px;
+}
+
+.culture h2 {
+  font-size: 100%;
+  font-weight: bolder;
+  color: #9c9c9c;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.culture h3 {
+  font-size: 120%;
+  padding: 5px;
+}
+
+.culture p {
+  font-size: 100%;
+  padding: 5px;
+  color: #9c9c9c;
+}
+
+.culture span a{
+  background: #9c9c9c;
+  margin: 10px;
+}
+
+.culture img{
+  height: 150px;
+  width: 100%;
+}
+
+.more-stories h2 {
+  font-size: 100%;
+  padding: 5px;
+}
+
+.more-stories p {
+  padding: 10px;
+}
+
+.option img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.opinion p {
+  font-weight: bold;
+  font-size: 100%;
+  padding: 5px;
+  margin-bottom: 0%;
+}
+
+.opinion span {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 80%;
+  color: #aba6a6;
+}
+
+.latest-news {
+  margin-top: 40px;
+}
+
+.latest-news p {
+  font-weight: bold;
+  font-size: 100%;
+  padding: 5px;
+}
+
+.latest-news img {
+  height: 100px;
+  width: 150px;
+  padding: 5px;
+}
+
+.sponsored-row {
+  margin-top: 10px;
+}
+
+.sponsored-row h2, .sponsored-row p {
+  padding: 20px;
+}
+
+.sponsored {
+  background-image: url("img/pfc-prague-fertility-center.jpg");
+  padding: 10px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.sponsored span{
+  background: #9c9c9c;
+  margin: 0%;
+  width: 150px;
+  padding: 10px;
 }
