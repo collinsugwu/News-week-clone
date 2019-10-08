@@ -96,6 +96,33 @@ nav:first-of-type ul li {
   color: #fff;
 }
 
+.culture span a{
+  background: #9c9c9c;
+  margin: 10px;
+}
+
+.magazine span a {
+  color: #f72210;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.weekly-sub a {
+  padding: 10px;
+  background: #f72210;
+  color: #dad7d7;
+  font-weight: bold;
+  width: 110px;
+}
+
+nav:last-of-type ul li a {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+  border-right: 1px solid #9c9c9c;
+  padding: 0 10px;
+}
+
 .subscribe li:nth-of-type(2) a {
   background: #fff; 
   display: inherit;
@@ -338,12 +365,6 @@ nav:last-of-type ul input{
   padding: 3px;
 }
 
-.magazine span a {
-  color: #f72210;
-  padding: 5px;
-  font-weight: bold;
-}
-
 .magazine-cover {
   background-image: url('img/october-11-18-2019.webp');
   background-size: cover;
@@ -405,8 +426,8 @@ nav:last-of-type ul input{
   font-weight: bolder;
 }
 
-
 /* slideshows */
+
 .slideshows {
   padding: 15px;
 }
@@ -476,6 +497,7 @@ nav:last-of-type ul input{
   width: 250px;
   fill: rgb(255, 27, 27);
 }
+
 .footer-icons {
   display: flex;
   flex-wrap: wrap;
@@ -503,7 +525,7 @@ footer .footer-sec-icons {
 
 footer .footer-sec-icons div ul{
   display: flex;
-  
+
   justify-content: space-between;
 }
 
