@@ -498,11 +498,12 @@ nav:last-of-type ul input{
 footer .footer-sec-icons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
-.footer-sec-icons ul{
-  flex: 1;
-  justify-content: space-between
+footer .footer-sec-icons div ul{
+  display: flex;
+  
+  justify-content: space-between;
 }
 
