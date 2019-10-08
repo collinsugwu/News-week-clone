@@ -1,5 +1,5 @@
 # Apple-clone
-This is a clone of apple archive website.
+This is a clone of News Week website.
 
 ---
 ## Author
@@ -7,15 +7,15 @@ This is a clone of apple archive website.
 
 ## Tech stack
 HTML, CSS
-In this project we are building a web page that match the appearance of [apple.com](https://web.archive.org/web/20140301004610/http://www.apple.com/) home page.
+In this project we are building a web page that match the appearance of [newsweek.com](https://www.newsweek.com/) home page.
 
 ## Setup
 Here is how to setup this project on your machine.
 
 Open your terminal in your working folder and execute the following command
 
->git clone https://github.com/collinsugwu/Apple-clone
+>git clone https://github.com/collinsugwu/News-week-clone
 
 Here is the link to the live version of this project
-[here](https://raw.githack.com/collinsugwu/Apple-clone/feature/index.html)
+[here](https://raw.githack.com/collinsugwu/News-week-clone/newsweek-working-branch/index.html)
 
