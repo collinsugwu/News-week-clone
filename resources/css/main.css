@@ -167,8 +167,8 @@ nav:last-of-type ul input {
 }
 
 .stories,
- .magazine,
- .editor {
+.magazine,
+.editor {
   padding: 20px;
 }
 
@@ -305,7 +305,7 @@ nav:last-of-type ul input {
 }
 
 .sponsored-row h2,
- .sponsored-row p {
+.sponsored-row p {
   padding: 20px;
 }
 
@@ -385,7 +385,7 @@ nav:last-of-type ul input {
 /* editor hero */
 
 .editor h2,
- .editor p {
+.editor p {
   padding: 5px;
 }
 
