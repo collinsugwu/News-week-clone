@@ -117,6 +117,14 @@ nav:first-of-type ul li {
   color: #fff;
 }
 
+.weekly-sub a {
+  padding: 10px;
+  background: #f72210;
+  color: #dad7d7;
+  font-weight: bold;
+  width: 110px;
+}
+
 .culture span a {
   background: #9c9c9c;
   margin: 10px;
@@ -132,14 +140,6 @@ nav:first-of-type ul li {
   width: 100%;
 }
 
-.weekly-sub a {
-  padding: 10px;
-  background: #f72210;
-  color: #dad7d7;
-  font-weight: bold;
-  width: 110px;
-}
-
 nav:last-of-type ul li a {
   font-size: 20px;
   font-weight: bolder;
@@ -148,12 +148,9 @@ nav:last-of-type ul li a {
   padding: 0 10px;
 }
 
-.weekly-sub a {
-  padding: 10px;
-  background: #f72210;
-  color: #dad7d7;
-  font-weight: bold;
-  width: 110px;
+nav:last-of-type ul li a:active,
+nav:last-of-type ul li a:hover {
+  color: #f72210;
 }
 
 .subscribe li:nth-of-type(2) a {
@@ -180,19 +177,6 @@ nav:last-of-type {
   margin: 0;
 }
 
-nav:last-of-type ul li a {
-  font-size: 20px;
-  font-weight: bolder;
-  text-decoration: none;
-  border-right: 1px solid #9c9c9c;
-  padding: 0 10px;
-}
-
-nav:last-of-type ul li a:active,
-nav:last-of-type ul li a:hover {
-  color: #f72210;
-}
-
 nav:last-of-type ul input {
   border: 0;
 }
@@ -206,7 +190,7 @@ nav:last-of-type ul input {
     width: 100%;
   }
 
-  inner .svg {
+  .inner .svg {
     width: 50%;
   }
 
@@ -383,13 +367,6 @@ nav:last-of-type ul input {
   font-weight: bolder;
 }
 
-.sponsored span {
-  background: #9c9c9c;
-  margin: 0%;
-  width: 150px;
-  padding: 10px;
-}
-
 .magazine-a:hover,
 .magazine-a:active {
   text-decoration: none;
@@ -425,15 +402,6 @@ nav:last-of-type ul input {
   font-weight: bolder;
 }
 
-.magazine-cover span {
-  background: #9c9c9c;
-  margin: 0%;
-  width: 150px;
-  padding: 10px;
-  color: #f72210;
-  font-weight: bolder;
-}
-
 .magazine-p {
   text-align: center;
   padding: 5px;
@@ -441,43 +409,6 @@ nav:last-of-type ul input {
   font-size: 120%;
   background: #dad7d7;
   text-transform: uppercase;
-}
-
-.magazine-a:hover,
-.magazine-a:active {
-  text-decoration: none;
-  background: #aba6a6;
-}
-
-.magazine-list img {
-  height: 300px;
-}
-
-  /* editor hero */
-
-.editor h2,
-.editor p {
-  padding: 5px;
-}
-
-.editor-hero {
-  background-image: url('img/donald-trump-october-white-house.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.editor-hero span {
-  background: #dad7d7;
-  margin: 0%;
-  width: 70px;
-  padding: 5px;
-  color: #f72210;
-  font-weight: bolder;
 }
 
   /* slideshows */
@@ -518,8 +449,8 @@ nav:last-of-type ul input {
   width: 100%;
 }
 
-.mike-spence img {
-  padding: 5px;
+.weekly-sub img {
+  width: 100%;
 }
 
 .footer-icons ul li img {
@@ -529,10 +460,6 @@ nav:last-of-type ul input {
 
 .weekly-sub {
   padding: 10px;
-}
-
-.weekly-sub img {
-  width: 100%;
 }
 
 .footer-svg svg {
@@ -546,7 +473,7 @@ nav:last-of-type ul input {
   justify-content: space-between;
 }
 
-.icon-detail ul li:last-of-type{
+.icon-detail ul li:last-of-type {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -556,4 +483,3 @@ footer .footer-sec-icons div ul {
   display: flex;
   justify-content: space-between;
 }
-
