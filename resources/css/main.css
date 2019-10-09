@@ -546,6 +546,12 @@ nav:last-of-type ul input {
   justify-content: space-between;
 }
 
+.icon-detail ul li:last-of-type{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 footer .footer-sec-icons div ul {
   display: flex;
   justify-content: space-between;
