@@ -377,11 +377,6 @@ nav:last-of-type ul input {
   height: 300px;
 }
 
-
-/* editor hero */
-
-
-
 .editor h2,
 .editor p {
   padding: 5px;
@@ -416,8 +411,6 @@ nav:last-of-type ul input {
   text-transform: uppercase;
 }
 
-  /* slideshows */
-
 .slideshows {
   padding: 15px;
 }
@@ -434,10 +427,6 @@ nav:last-of-type ul input {
   font-weight: bold;
   font-size: 120%;
 }
-
-
-  /* us */
-
 
 .us {
   padding: 10px;
