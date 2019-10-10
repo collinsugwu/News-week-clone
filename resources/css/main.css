@@ -471,11 +471,13 @@ nav:last-of-type ul input {
 
 .icon-detail ul li:last-of-type {
   display: flex;
-  flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-end;
+  height: 60px;
 }
 
 footer .footer-sec-icons div ul {
   display: flex;
   justify-content: space-between;
 }
+
