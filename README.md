@@ -17,5 +17,5 @@ Open your terminal in your working folder and execute the following command
 >git clone https://github.com/collinsugwu/News-week-clone
 
 Here is the link to the live version of this project
-[here](https://raw.githack.com/collinsugwu/News-week-clone/newsweek-working-branch/index.html)
+[here](https://raw.githack.com/collinsugwu/News-week-clone/master/index.html)
 
