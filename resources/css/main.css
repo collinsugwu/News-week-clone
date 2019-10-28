@@ -110,6 +110,10 @@ nav:first-of-type ul li {
   color: #fff;
 }
 
+.subscribe {
+  margin-bottom: 0%;
+}
+
 .subscribe a {
   text-decoration: none;
   text-transform: uppercase;
@@ -190,8 +194,8 @@ nav:last-of-type ul input {
     width: 100%;
   }
 
-  .inner .svg {
-    width: 50%;
+  .inner-flex .svg {
+    width: 120px;
   }
 
   .date {
