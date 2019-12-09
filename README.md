@@ -20,7 +20,7 @@
   <h3 align="center">Apple Clone</h3>
 
   <p align="center">
-    A clone of the [apple] (https://web.archive.org/web/20140301004610/http://www.apple.com/) archive website  
+    A clone of the [Newsweek] (https://www.newsweek.com/)  
     <br />
     <a href="https://github.com/collinsugwu/News-week-clone/blob/master/README.md"><strong>Explore the docs �</strong></a>
     <br />
